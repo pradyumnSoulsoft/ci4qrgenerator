@@ -7,7 +7,7 @@ use CodeIgniter\Router\RouteCollection;
  */
 
 //  $routes->get('/', 'Home::index');
- $routes->get('/', 'Ui\UIController::index');
+//  $routes->get('/', 'Ui\UIController::index');
 
 $routes->group('super', function ($routes) {
     $routes->get('login', 'Super::index');    
@@ -178,14 +178,16 @@ $routes->group('super', function ($routes) {
 // });
 
 
-// $routes->group('master', function ($routes) {
+$routes->group('master', function ($routes) {
 //     $routes->get('gasCylinder', 'Ui\UIController::gasCylinder');
 //     $routes->get('gas', 'Ui\UIController::gas');
 //     $routes->get('department', 'Ui\UIController::department');
 //     $routes->get('client', 'Ui\UIController::client');
 //     $routes->get('qrcode', 'Ui\UIController::qrcode');
+    $routes->get('qrgenerator', 'Ui\UIController::qrgenerator');
+    $routes->get('expage', 'Ui\UIController::expage');
     
-// });
+});
 
 
 // $routes->group('transaction', function ($routes) {

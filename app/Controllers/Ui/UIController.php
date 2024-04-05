@@ -62,17 +62,28 @@ class UIController extends BaseController
     //     . view('htmlend');
         
     // }
-    // public function qrcode()
-    // {
-    //     return view('header')
-    //     . view('sidebar/side_bar')
-    //     . view('gas_cylinder/qrcode')
-    //     . view('gas_cylinder/modal/add_qr')
-    //     . view('footer')
-    //     . view('gas_cylinder/qrcode_js')
-    //     . view('htmlend');
+    public function qrgenerator()
+    {
+        return view('header')
+        . view('sidebar/side_bar')
+        . view('employee/qrgenerator/qrgenerator')
+        // . view('gas_cylinder/modal/add_qr')
+        . view('footer')
+        . view('employee/qrgenerator/qrgenerator_js')
+        . view('htmlend');
         
-    // }
+    }
+    public function expage()
+    {
+        return view('header')
+        . view('sidebar/side_bar')
+        . view('employee/qrgenerator/expage')
+        // . view('gas_cylinder/modal/add_qr')
+        . view('footer')
+        . view('employee/qrgenerator/qrgenerator_js')
+        . view('htmlend');
+        
+    }
     
     // public function createCylinder()
     // {

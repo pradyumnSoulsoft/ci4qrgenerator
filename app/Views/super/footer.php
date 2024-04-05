@@ -243,6 +243,8 @@
 	<script src="<?php echo base_url() . 'resource/assets/vendor_components/select2/dist/js/select2.full.js'; ?>"></script>
 
     <script src="<?php  echo base_url() . 'resource/js/custom/super_footer_import.js'; ?>"></script>
+    
+    <script src="<?php  echo base_url() . 'resource/js/index.min.js'; ?>"></script>
 
     <script>
     //Initialize Select2 Elements

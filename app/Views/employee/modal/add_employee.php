@@ -12,7 +12,7 @@
                     <div class="box-body">
                         
                         <div class="row">
-                        <div class="col-md-3">
+                                <div class="col-md-3">
                                     <div class="form-group text-center">
                                         <img src="<?php echo base_url('resource/images/avatar-custom.png'); ?>" alt="" id="otherdpre"  width="100px" height="100px"/>
                                         <p><label for="profile_image" style="cursor: pointer;" class="h6"><u>Upload...</u></label></p>

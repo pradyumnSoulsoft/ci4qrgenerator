@@ -51,9 +51,9 @@ class OfficeBranchController extends BaseController
             'contact_number1' => $this->request->getVar('contact_number1'),
             'contact_number2' => $this->request->getVar('contact_number2'),
             'email_id' => $this->request->getVar('email_id'),
-            'created_by' => $this->request->getVar('created_by'),
+            // 'created_by' => $this->request->getVar('created_by'),
             // 'created_at' => Time::now()->toDateString(),
-            'modified_by' => $this->request->getVar('modified_by'),
+            // 'modified_by' => $this->request->getVar('modified_by'),
             // 'modified_at' => Time::now()->toDateString(),
             
         ];
