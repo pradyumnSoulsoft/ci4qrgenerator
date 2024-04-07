@@ -1,8 +1,8 @@
 var etoken = sessionStorage.getItem('etoken');
 if(etoken == null) {
     
-$('#loginForm').on('submit', function (e) {
-
+    $('#loginForm').on('submit', function (e) {
+        
     e.preventDefault();
 
     var returnVal = $("#loginForm").valid();
@@ -56,3 +56,28 @@ $('#loginForm').on('submit', function (e) {
 else{
     window.location.replace("dashboard");
 }
+
+
+
+// $('#loginForm').on('submit', function (e) {
+
+//     e.preventDefault();
+
+//     user = document.getElementById('uname').value;
+//     password = document.getElementById('password').value;
+
+//     // var formdata = new FormData(this);
+//     console.log(user);
+//     console.log(password);
+//     if(user === 'admin@admin.com' && password === '12345'){
+//         window.location.replace("dashboard");
+//     }else{
+//         swal("Login Error!", "Incorrect Password" , "error");
+//     }
+
+    
+// });
+// }//if ends
+// else{
+//     window.location.replace("dashboard");
+// }
